@@ -58,7 +58,7 @@ class Url extends Element
         $this->loc = $loc;
         $this->lastmod = $lastmod;
         $this->changefreq = $changefreq;
-        $this->priority = $priority;
+        $this->priority = (string) $priority;
     }
 
     /**
